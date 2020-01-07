@@ -1,8 +1,8 @@
-<div align="center" style="text-align: center;">
-<img src="./HTML5_Logo.svg" alt="HTML5 Logo" style="height: 128px;">
-<h1 style="color: #ea8853; font-weight: 400">SheetCheat HTML5</h1>
+<p align="center" style="text-align: center;">
+<img src="./HTML5_Logo.svg" alt="HTML5 Logo" height="256" />
+</p>
+<h1 class="text-blue" style="color: #ea8853; font-weight: 400">SheetCheat HTML5</h1>
 <hr>
-</div>
 
 ## HTML5 SheetCheat
 
