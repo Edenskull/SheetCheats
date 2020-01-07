@@ -1,3 +1,4 @@
+![Badge Language](https://img.shields.io/badge/Language-HTML-blue) ![Badge Status](https://img.shields.io/badge/Status-En%20Cours-yellow)
 <p align="center" style="text-align: center;">
 <img src="./HTML5_Logo.svg" alt="HTML5 Logo" height="256" />
 </p>
