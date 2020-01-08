@@ -61,15 +61,15 @@ On peut lier du css avec la balise style (peu recommandable) :
 On peut aussi lier des fichiers css externes en indiquant leur chemin :
 ```HTML
 <head>
-	<link href="/css/main.css" rel="stylesheet"> <!-- Absolu -->
-	<link href="css/main.css" rel="stylesheet"> <!-- Relative -->
+  <link href="/css/main.css" rel="stylesheet"> <!-- Absolu -->
+  <link href="css/main.css" rel="stylesheet"> <!-- Relative -->
 </head>
 ```
 
 On peut lier des fichiers css par lien CDN :
 ```HTML
 <head>
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 ```
 
@@ -80,32 +80,32 @@ Pour plus de performance on va importer les scripts à la fin du body.
 On peut lier du javascript avec la balise script (peu recommandable) :
 ```HTML
 <body>
-	<p>Hello World!</p>
+  <p>Hello World!</p>
 
-	<script type="text/javascript">
-		window.alert('hello world');
-	</script>
+  <script type="text/javascript">
+    window.alert('hello world');
+  </script>
 </body>
 ```
 
 On peut aussi lier des fichiers js externes en indiquant leur chemin :
 ```HTML
 <body>
-	<p>Hello World!</p>
+  <p>Hello World!</p>
 
-	<script type="text/javascript" src="js/main.js"></script> <!-- relative -->
-	<script type="text/javascript" src="/js/main.js"></script> <!-- absolu -->
+  <script type="text/javascript" src="js/main.js"></script> <!-- relative -->
+  <script type="text/javascript" src="/js/main.js"></script> <!-- absolu -->
 </body>
 ```
 
 On peut lier des fichers js par lien CDN :
 ```HTML
 <body>
-	<p>Hello World!</p>
+  <p>Hello World!</p>
 
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-		crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
 </body>
 ```
 
@@ -114,17 +114,17 @@ On peut lier des fichers js par lien CDN :
 <**nav**> | Balise pouvant servir à créer une barre de navigation :
 ```HTML
 <nav>
-	<a href="#">home</a>
-	<a href="#">hello</a>
-	<a href="#">world</a>
-	<a href="#">!</a>
+  <a href="#">home</a>
+  <a href="#">hello</a>
+  <a href="#">world</a>
+  <a href="#">!</a>
 </nav>
 ```
 
 <**footer**> | Balise pouvant servir à créer un bas de page récurrent ou non :
 ```HTML
 <footer>
-	<span>Copyright @ Edenskull</span>
+  <span>Copyright @ Edenskull</span>
 </footer>
 ```
 
@@ -144,6 +144,6 @@ On peut lier des fichers js par lien CDN :
 
 ```HTML
 <audio controls src="/media/examples/t-rex-roar.mp3">
-	Your browser does not support the audio element.
+  Your browser does not support the audio element.
 </audio>
 ```
