@@ -45,16 +45,16 @@ Pour plus de performance on va importer les feuilles dans le head.
 On peut lier du css avec la balise style (peu recommandable) :
 ```HTML
 <head>
-	<style>
-		body {
-			background-color: aliceblue;
-		}
+  <style>
+    body {
+      background-color: aliceblue;
+    }
 
-		p {
-			font-size: 2em;
-			color: red;
-		}
-	</style>
+    p {
+      font-size: 2em;
+      color: red;
+    }
+  </style>
 </head>
 ```
 
