@@ -24,14 +24,14 @@ HTML5 est la dernière version du standard HTML. Cette nouvelle version contient
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Example</title>
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <title>Example</title>
+  </head>
 
-    <body>
-		<p>Hello world!</p>
-    </body>
+  <body>
+    <p>Hello world!</p>
+  </body>
 
 </html>
 ```
@@ -136,9 +136,9 @@ On peut lier des fichers js par lien CDN :
 <**source**> <**video**> <**audio**> | Balise pouvant servir à afficher des vidéos ou de l'audio sur la page) :
 ```HTML
 <video controls width="250" height="200" muted>
-    <source src="/media/examples/flower.webm" type="video/webm">
-    <source src="/media/examples/flower.mp4" type="video/mp4">
-    This browser does not support the HTML5 video element.
+  <source src="/media/examples/flower.webm" type="video/webm">
+  <source src="/media/examples/flower.mp4" type="video/mp4">
+  This browser does not support the HTML5 video element.
 </video>
 ```
 
