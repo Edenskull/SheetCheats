@@ -147,3 +147,60 @@ On peut lier des fichers js par lien CDN :
   Your browser does not support the audio element.
 </audio>
 ```
+
+## Syntaxe de projet
+
+### Structure des balises head et body
+
+Un espace entre html et head et pas d'indentation sur le head. De même entre le head et le body et le body et html indentation sur les fils des deux blocks :
+
+```HTML
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <p>hello world</p>
+</body>
+
+</html>
+```
+
+### Syntaxe balises auto-fermantes :
+
+Les balises se ferment avec la syntaxe html5 c'est à dire sans le slash ("/") de fermeture
+```HTML
+<meta charset="utf-8">
+```
+
+### HTML attribut lang
+
+Ne pas oublier l'attribut lang à placer sur la balise HTML :
+```HTML
+<html lang="fr">
+```
+
+### Balise Title
+
+Ne pas omettre la balise title :
+```HTML
+<title>Hello World</title>
+```
+
+### Balise Meta
+
+Il faut absolument preciser au navigateur de quelle façon il doit décoder le texte du site :
+```HTML
+<meta charset="utf-8">
+```
+
+### Aider le référencement Google
+
+Eviter de placer la même balise description dans deux pages de votre site.
+Evitez de lister des mots-clés en guise de description de page, vous serez alors considérés comme des spammeurs. Il faut que votre description soit le développement de votre titre et le résumé de votre page.
+
+```HTML
+<meta name="description" content="description de la page">
+```
