@@ -38,7 +38,7 @@ if pid: # Condition de lecture
         if exist is None:
             list_users[sender] = ip # Si il n'existe on ajoute l'ip au jSON
         with open('users.json', 'w') as json_file:
-            json.dump(list_users, json_file) # Sauvegarde du JSON
+            json.dump(list_users, json_file, indent=4) # Sauvegarde du JSON
         print("{}: {}\n::".format(sender, message), end=" ") # affichage du message formaté
 else:
     while True: # Boucle infinie
@@ -47,7 +47,15 @@ else:
         clavier = input(':: ') # On demande le message à l'utilisateur
         if not clavier:
             break
-        if clavier.startswith('@'): # Si il commence par @
+        if clavier.startswith('>all'):
+	    	with open('users.json') as json_file:
+	        	users = json.load(json_file)
+	        	listed_users = []
+		        for user in users:
+		            listed_users.append(user)
+	        print(", ".join(listed_users))
+	        continue
+        elif clavier.startswith('@'): # Si il commence par @
             target = clavier.split(' ')[0].replace('@', '') # On dégage le pseudo de l'utilisateur qu'on vise
             clavier = clavier.split(' ')
             clavier.pop(0)
